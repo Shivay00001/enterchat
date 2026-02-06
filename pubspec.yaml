@@ -1,0 +1,59 @@
+name: enterchat
+description: Unified Messaging Platform with Multi-App Integration
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Backend & Database
+  supabase_flutter: ^2.0.0
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  
+  # Platform Integration
+  flutter_inappwebview: ^6.0.0
+  url_launcher: ^6.2.2
+  permission_handler: ^11.1.0
+  
+  # Encryption & Security
+  encrypt: ^5.0.3
+  crypto: ^3.0.3
+  flutter_secure_storage: ^9.0.0
+  
+  # Wallet & Crypto
+  web3dart: ^2.7.1
+  bip39: ^1.0.6
+  
+  # Utilities
+  intl: ^0.18.1
+  http: ^1.1.2
+  shared_preferences: ^2.2.2
+  uuid: ^4.2.2
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - images/
+  #   - assets/icons/
